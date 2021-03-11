@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="zhCN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>综合服务</title>
+
+  <!-- Google Font: Source Sans Pro -->
+<!--  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">-->
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/font-awesome.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition layout-top-nav">
+<div class="wrapper">
+
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand-md navbar-primary navbar-dark">
+    <div class="container">
+      <a href="" class="navbar-brand">
+        <img src="" alt="" class="brand-image" style="opacity: .8">
+        <span class="brand-text font-weight-light">学工管理系统</span>
+      </a>
+
+      <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse order-3 ml-3" id="navbarCollapse">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">首页</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">基础信息</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">应用中心</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">综合服务</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">系统管理</a>
+          </li>
+
+<!--          下拉菜单-->
+<!--          <li class="nav-item dropdown">-->
+<!--            <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>-->
+<!--            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">-->
+<!--              <li><a href="#" class="dropdown-item">Some action </a></li>-->
+<!--              <li><a href="#" class="dropdown-item">Some other action</a></li>-->
+
+<!--              <li class="dropdown-divider"></li>-->
+
+<!--              &lt;!&ndash; Level two dropdown&ndash;&gt;-->
+<!--              <li class="dropdown-submenu dropdown-hover">-->
+<!--                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Hover for action</a>-->
+<!--                <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">-->
+<!--                  <li>-->
+<!--                    <a tabindex="-1" href="#" class="dropdown-item">level 2</a>-->
+<!--                  </li>-->
+
+<!--                  &lt;!&ndash; Level three dropdown&ndash;&gt;-->
+<!--                  <li class="dropdown-submenu">-->
+<!--                    <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>-->
+<!--                    <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">-->
+<!--                      <li><a href="#" class="dropdown-item">3rd level</a></li>-->
+<!--                      <li><a href="#" class="dropdown-item">3rd level</a></li>-->
+<!--                    </ul>-->
+<!--                  </li>-->
+<!--                  &lt;!&ndash; End Level three &ndash;&gt;-->
+
+<!--                  <li><a href="#" class="dropdown-item">level 2</a></li>-->
+<!--                  <li><a href="#" class="dropdown-item">level 2</a></li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              &lt;!&ndash; End Level two &ndash;&gt;-->
+<!--            </ul>-->
+<!--          </li>-->
+        </ul>
+
+
+        <form class="form-inline ml-0 ml-md-3">
+          <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="查找" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-navbar" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right navbar links -->
+      <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+        <!-- 角色下拉信息 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">
+            <i class="fa fa-user-o"></i>
+            <span class="badge badge-danger navbar-badge">3</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+            <a href="#" class="dropdown-item">
+              <!-- Message Start -->
+              <div class="media">
+                <img src="dist/img/avatar5.png" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <div class="media-body">
+                  <h3 class="dropdown-item-title">
+                    Brad Diesel
+                    <span class="float-right text-sm text-danger"><i class="fa fa-star"></i></span>
+                  </h3>
+                  <p class="text-sm">Call me whenever you can...</p>
+                  <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                </div>
+              </div>
+              <!-- Message End -->
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+          </div>
+        </li>
+<!--          消息下拉列表-->
+        <li class="nav-item dropdown show">
+          <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="true">
+            <i class="fa fa-bell-o"></i>
+            <span class="badge badge-warning navbar-badge">15</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px;">
+            <span class="dropdown-item dropdown-header">15 Notifications</span>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fa fa-envelope mr-2"></i> 4 new messages
+              <span class="float-right text-muted text-sm">3 mins</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fa fa-users mr-2"></i> 8 friend requests
+              <span class="float-right text-muted text-sm">12 hours</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">
+              <i class="fa fa-file mr-2"></i> 3 new reports
+              <span class="float-right text-muted text-sm">2 days</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+          </div>
+        </li>
+
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">-->
+<!--            <i class="fas fa-th-large"></i>-->
+<!--          </a>-->
+<!--        </li>-->
+      </ul>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+<!--    <div class="content-header">-->
+<!--      <div class="container">-->
+<!--        <div class="row mb-2">-->
+<!--          <ol class="breadcrumb float-sm-left">-->
+<!--            <li class="breadcrumb-item"><a href="#">首页</a></li>-->
+<!--            <li class="breadcrumb-item active">业务中心</li>-->
+<!--          </ol>-->
+<!--        </div>-->
+<!--      </div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+<!--    </div>-->
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <div class="content">
+      <!--通知消息-->
+     <div class="container">
+
+       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="dist/img/photo1.png" class="d-block w-100" alt="...">
+             <div class="carousel-caption d-none d-md-block">
+               <h5>First slide label</h5>
+               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <img src="dist/img/photo1.png" class="d-block w-100" alt="...">
+             <div class="carousel-caption d-none d-md-block">
+               <h5>Second slide label</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <img src="dist/img/photo1.png" class="d-block w-100" alt="...">
+             <div class="carousel-caption d-none d-md-block">
+               <h5>Third slide label</h5>
+               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+             </div>
+           </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+       </div>
+
+       <h6 class="border-bottom ">通知消息</h6>
+      <!-- 通知消息列表-->
+        <div class="row mb-3">
+          <div class="col-lg-6">
+            <div class="card card-primary">
+              <div class="card-header">
+                <h5 class="card-title m-0">通知公告</h5>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-2">
+                  <a href="#" class="text-dark d-block">1. 2020年第二期助学贷款工作启动</a>
+                  <span class="text-black-50">2020-9-10</span>
+                </div>
+
+                <div class="d-flex justify-content-between mb-2">
+                  <a href="#" class="text-dark d-block">1. 2020年第二期助学贷款工作启动</a>
+                  <span class="text-black-50">2020-9-10</span>
+                </div>
+
+                <div class="d-flex justify-content-between mb-2">
+                  <a href="#" class="text-dark d-block">1. 2020年第二期助学贷款工作启动</a>
+                  <span class="text-black-50">2020-9-10</span>
+                </div>
+              </div>
+            </div><!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+          <div class="col-lg-6">
+            <div class="card card-primary">
+              <div class="card-header">
+                <h5 class="card-title m-0">通知公告</h5>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-2">
+                  <a href="#" class="text-dark d-block">1. 2020年第二期助学贷款工作启动</a>
+                  <span class="text-black-50">2020-9-10</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                  <a href="#" class="text-dark d-block">1. 2020年第二期助学贷款工作启动</a>
+                  <span class="text-black-50">2020-9-10</span>
+                </div>
+
+                <div class="d-flex justify-content-between mb-2">
+                  <a href="#" class="text-dark d-block">1. 2020年第二期助学贷款工作启动</a>
+                  <span class="text-black-50">2020-9-10</span>
+                </div>
+              </div>
+            </div><!-- /.card -->
+          </div>
+          <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+<!--      业务中心-->
+       <h6 class="border-bottom">业务中心</h6>
+<!--       功能列表第一行-->
+       <div class="row">
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-primary">
+               <div class="card-header">
+                 <p class="card-title">宿舍管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-building fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 宿舍信息录入、排宿、调/退宿、留宿、卫生管理
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-success">
+               <div class="card-header">
+                 <p class="card-title">学生信息管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-id-card-o fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 学生信息核实、档案管理、异动，日常行为管理
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-warning">
+               <div class="card-header">
+                 <p class="card-title">班级管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-user-o fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 班级信息增加、修改，班干部信息管理
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-danger">
+               <div class="card-header">
+                 <p class="card-title">教工管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-group fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 班级信息增加、修改，班干部信息管理
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+       </div>
+      <!--      .row-->
+<!--  功能列表第二行-->
+       <div class="row">
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-primary">
+               <div class="card-header">
+                 <p class="card-title">社团管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-group fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 社团信息增加、修改、删除，成员管理、事务管理
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-success">
+               <div class="card-header">
+                 <p class="card-title">奖助贷管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-money fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 奖学金、助学金、贫困生、勤工俭学、学费减免...
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-warning">
+               <div class="card-header">
+                 <p class="card-title">毕业生管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-hand-paper-o fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 毕业生档案管理、就业跟踪管理......
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-danger">
+               <div class="card-header">
+                 <p class="card-title">评奖管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-handshake-o fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 信息配置、在线填报管理、智能推荐、评奖评优...
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+       </div><!--       row-->
+       <div class="row">
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-primary">
+               <div class="card-header">
+                 <p class="card-title">数据交换管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-database fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 数据共享、数据抽取、数据清洗、配置管理
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-success">
+               <div class="card-header">
+                 <p class="card-title">基础信息管理</p>
+                 <div class="card-tools">
+                   <i class="fa fa-pencil-square-o fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 奖学金、助学金、贫困生、勤工俭学、学费减免...
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-warning">
+               <div class="card-header">
+                 <p class="card-title">综合服务</p>
+                 <div class="card-tools">
+                   <i class="fa fa-gears fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 学生工作信息申请、请假、填报，信息公示、通知...
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+         <div class="col-md-3">
+           <a href="#">
+             <div class="card bg-gradient-danger">
+               <div class="card-header">
+                 <p class="card-title">报表中心服务</p>
+                 <div class="card-tools">
+                   <i class="fa fa-file-text-o fa-2x mr-2"></i>
+
+                 </div>
+                 <!-- /.card-tools -->
+               </div>
+               <!-- /.card-header -->
+               <div class="card-body">
+                 学工系统、报表模板、打印等 ... ...
+               </div>
+               <!-- /.card-body -->
+             </div>
+           </a>
+
+           <!-- /.card -->
+         </div>
+         <!-- /.col -->
+       </div><!--       row-->
+       <!--      .container-->
+    </div>
+<!--      content-->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      Anything you want
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2014-2020 <a href="#">AdminLTE.io</a>.</strong> All rights reserved.
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<script>
+  $('.carousel').carousel();
+</script>
+</body>
+</html>
